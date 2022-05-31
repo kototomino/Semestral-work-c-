@@ -995,7 +995,7 @@ inline void Vyhladavanie::vypisFilter(std::string zvolenaUJ, int mozem, SortedSe
 				} if (vek == 1) {
 					cin >> vekZeny;
 
-					kriteriumUJVekPocet->setVekPocetOdkial(vekZeny);
+					kriteriumUJVekPocet->setVekPocetOdkial(vekZeny+101);
 				}
 				cout << "ZADAJ DO ROKOV" << endl;
 				cout << cakamKlavesu;
@@ -1006,7 +1006,7 @@ inline void Vyhladavanie::vypisFilter(std::string zvolenaUJ, int mozem, SortedSe
 				} if (vek == 1) {
 					cin >> vekZeny;
 
-					kriteriumUJVekPocet->setVekPocetPokial(vekZeny);
+					kriteriumUJVekPocet->setVekPocetPokial(vekZeny+101);
 				}
 				//alpha / beta pre filter
 				cout << "ZADAJ SPODNU HRANICU" << endl;
@@ -1060,7 +1060,7 @@ inline void Vyhladavanie::vypisFilter(std::string zvolenaUJ, int mozem, SortedSe
 					kriteriumUJVekPodiel->setVekPodielOdkial(vekMuziPod);
 				} if (vekPod == 1) {
 					cin >> vekZenyPod;
-					kriteriumUJVekPodiel->setVekPodielOdkial(vekZenyPod);
+					kriteriumUJVekPodiel->setVekPodielOdkial(vekZenyPod+101);
 				}
 				cout << "ZADAJ DO ROKOV" << endl;
 				cout << cakamKlavesu;
@@ -1070,7 +1070,7 @@ inline void Vyhladavanie::vypisFilter(std::string zvolenaUJ, int mozem, SortedSe
 				} if (vekPod == 1) {
 					cin >> vekZenyPod;
 
-					kriteriumUJVekPodiel->setVekPodielPokial(vekZenyPod);
+					kriteriumUJVekPodiel->setVekPodielPokial(vekZenyPod+101);
 				}
 				cout << "ZADAJ SPODNU HRANICU %" << endl;
 				cout << cakamKlavesu;
